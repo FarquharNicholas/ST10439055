@@ -14,14 +14,12 @@ import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
 public class ST10439055_Main {
-    
-String ReturnMessage = "asb werk jou poes";
+
+    String ReturnMessage = "asb werk jou poes";
 
     public static st10439055 MyUser = new st10439055();
 
     public static void main(String[] args) {
-        
-        
 
         st10439055 Users = new st10439055();
         st10439055 LogIn = new st10439055();
@@ -205,8 +203,7 @@ String ReturnMessage = "asb werk jou poes";
             JTextField sTaskDiscription = new JTextField();
             JTextField sDeveloper = new JTextField();
             JTextField sTaskDuration = new JTextField();
-            
-            
+
             String[] sStatuses = {"To do", "Done", "Doing"};
             JComboBox<String> statusBox = new JComboBox<>(sStatuses);
 
@@ -283,11 +280,9 @@ String ReturnMessage = "asb werk jou poes";
                 + "Duration: " + iTaskDuration + "hrs";
     }
 
-  
     public int returnTotalHours(Integer iTaskduration, Integer IFullduration) {
         return iTaskduration + IFullduration;
     }
-    
 
 }
 

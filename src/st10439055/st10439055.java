@@ -1,13 +1,13 @@
-
 package st10439055;
 
 /**
  *
  * @author nicho
  */
-    public class st10439055 {
+public class st10439055 {
+
     String sUsername;
-    String sPassword; 
+    String sPassword;
     String sName;
     String sSurename;
     String sValidUsername = "Username was successfully captured.";
@@ -24,102 +24,98 @@ package st10439055;
     String sLogInUsernameInValid = "The username you used is incorrect.";
     String sWelcomeUser = "Welcome: ";
     String sWelcomeToKanban = "Welcome to EastKanban";
-       
-    
+
     /*public st10439055_poe(){
     sUsername = "Nic_F";
     sPassword = "J4mes@me";
     }*/
-    
     public void setUsername(String Username) {
-    sUsername = Username;    
+        sUsername = Username;
     }
-    
+
     public void setPassword(String Password) {
-    sPassword = Password;    
+        sPassword = Password;
     }
-    
+
     public void setName(String Name) {
-    sName = Name;    
+        sName = Name;
     }
-    
+
     public void setSurename(String Surename) {
-    sSurename = Surename;    
+        sSurename = Surename;
     }
-    
+
     public String getUsername() {
-    return sUsername;    
+        return sUsername;
     }
-    
+
     public String getPassword() {
-    return sPassword;    
+        return sPassword;
     }
-    
+
     public String getName() {
-    return sName;    
+        return sName;
     }
-    
+
     public String getSurename() {
-    return sSurename;    
+        return sSurename;
     }
-    
+
     public String getValidUsername() {
-    return sValidUsername;    
+        return sValidUsername;
     }
-    
+
     public String getValidPassword() {
-    return sValidPassword;    
+        return sValidPassword;
     }
-    
+
     public String getInvalidUsernameUnder() {
-    return sInvalidUsernameUnder;    
+        return sInvalidUsernameUnder;
     }
-    
+
     public String getInvalidUsernameLength() {
-    return sInvalidUsernameLength;    
+        return sInvalidUsernameLength;
     }
-    
+
     public String getInvalidPasswordLenth() {
-    return sInvalidPasswordLenth;    
+        return sInvalidPasswordLenth;
     }
-    
+
     public String getInvalidPasswordCaps() {
-    return sInvalidPasswordCaps;    
+        return sInvalidPasswordCaps;
     }
-    
+
     public String getInvalidPasswordNum() {
-    return sInvalidPasswordNum;    
+        return sInvalidPasswordNum;
     }
-    
+
     public String getInvalidPasswordSC() {
-    return sInvalidPasswordSC;    
+        return sInvalidPasswordSC;
     }
-    
+
     public String getGoToLogIn() {
-    return sGoToLogIn;
+        return sGoToLogIn;
     }
-    
+
     public String getValidLogIn() {
-    return sValidLogIn;    
+        return sValidLogIn;
     }
-    
+
     public String getLogInPasswordInValid() {
-    return sLogInPasswordInValid;    
+        return sLogInPasswordInValid;
     }
-    
+
     public String getLogInUsernameInValid() {
-    return sLogInUsernameInValid;
+        return sLogInUsernameInValid;
     }
-    
-     public String getWelcomeUser() {
-    return sWelcomeUser;    
+
+    public String getWelcomeUser() {
+        return sWelcomeUser;
     }
-    
-     public String getWelcomeToKanban() {
-    return sWelcomeToKanban;    
+
+    public String getWelcomeToKanban() {
+        return sWelcomeToKanban;
     }
-    
-    
-    
-    }//end
+
+}//end
 

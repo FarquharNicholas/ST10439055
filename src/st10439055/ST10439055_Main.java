@@ -288,11 +288,7 @@ String ReturnMessage = "asb werk jou poes";
         return iTaskduration + IFullduration;
     }
     
-  public String getMessage()
-  {
-      return ReturnMessage;
-  }
-    
+
 }
 
 //Microsoft copilot: Your everyday ai companion (no date) Microsoft Copilot: Your everyday AI companion. Available at: https://copilot.microsoft.com/ (Accessed: 12 April 2024). 
